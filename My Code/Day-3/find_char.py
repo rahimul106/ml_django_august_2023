@@ -5,6 +5,6 @@ userInput = input('Input any thing: ')
 status = userInput.isnumeric()
 
 if status == True :
-    print(userInput,"is a number, there have no character.")
+    print(userInput,"is a complete number, there have no character.")
 else:
-    print(userInput,"is not  a number, there have one or more characters.")
+    print(userInput,"is not a complete number, there have one or more characters.")
