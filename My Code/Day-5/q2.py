@@ -5,7 +5,11 @@ data = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]]
 
 
 #Find row size of this list
-row_size = len(data)
+i=0
+for j in data:
+    i += 1
+
+row_size = i
 
 #Find column size of this list
 column_size = 0
