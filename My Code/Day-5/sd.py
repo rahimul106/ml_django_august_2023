@@ -16,7 +16,7 @@ for i in data:
 mean = sum / len
 # print(mean)
 
-#Let's find ~(Xi - X-)
+#Let's find ~(Xi - (X-))
 total_sum = 0
 for i in data:
     total_sum += (i-mean)**2
@@ -24,4 +24,8 @@ for i in data:
 
 #Standard Deviation
 sd = (total_sum / (len - 1))**0.5
-print(float(round(sd)))
+# print(float(round(sd)))
+
+a=sd-0.00
+print(sd)
+
